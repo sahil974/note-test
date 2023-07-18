@@ -27,8 +27,8 @@ const Notes = () => {
             .then((res) => {
                 if (res.data === "updated") {
                     // console.log("reload kr")
-                    // fetchNotes()
-                    window.location.reload()
+                    fetchNotes()
+                    // window.location.reload()
                 }
             })
             .catch((err) => {
